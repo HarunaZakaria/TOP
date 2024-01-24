@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  gap: 24px;
+  width: 100px;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-end;
+}
