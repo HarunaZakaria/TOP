@@ -1,0 +1,79 @@
+<form action="https://httpbin.org/post" method="post">
+    <div>
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" id="first_name">
+    </div>
+  
+    <div>
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" id="last_name">
+    </div>
+  
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age">
+    </div>
+    <div>
+        <select name="Car">
+            <option value="mercedes">Mercedes</option>
+            <option value="tesla">Tesla</option>
+            <option value="volvo" selected>Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="mini">Mini</option>
+            <option value="ford">Ford</option>
+          </select>
+    </div>
+    <div>
+        <select name="fashion">
+            <optgroup label="Clothing">
+              <option value="t_shirt">T-Shirts</option>
+              <option value="sweater">Sweaters</option>
+              <option value="coats">Coats</option>
+            </optgroup>
+            <optgroup label="Foot Wear">
+              <option value="sneakers">Sneakers</option>
+              <option value="boots">Boots</option>
+              <option value="sandals">Sandals</option>
+            </optgroup>
+          </select>          
+    </div>
+    <h1>Ticket Type</h1>
+<div>
+  <input type="radio" id="child" name="ticket_type" value="child">
+  <label for="child">Child</label>
+</div>
+
+<div>
+  <input type="radio" id="adult" name="ticket_type" value="adult">
+  <label for="adult">Adult</label>
+</div>
+
+<div>
+  <input type="radio" id="senior" name="ticket_type" value="senior">
+  <label for="senior">Senior</label>
+</div>
+<h1>Pizza Toppings</h1>
+
+<div>
+  <input type="checkbox" id="sausage" name="topping" value="sausage">
+  <label for="sausage">Sausage</label>
+</div>
+
+<div>
+  <input type="checkbox" id="onions" name="topping" value="onions">
+  <label for="onions">Onions</label>
+</div>
+
+<div>
+  <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+  <label for="pepperoni">Pepperoni</label>
+</div>
+
+<div>
+  <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+  <label for="mushrooms">Mushrooms</label>
+</div>
+
+  
+    <button type="submit">Submit</button>
+  </form>
