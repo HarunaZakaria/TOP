@@ -4,6 +4,8 @@ true or false for shopping and alert if the allawance
 has increase or not 
 
 */
+
+//define function
 function erans(){
     let shopping = prompt("Would you my shopping for me?")
     let allowance = 45;
@@ -18,4 +20,5 @@ function erans(){
     }
 }
 
+// call or run the function
 erans();
