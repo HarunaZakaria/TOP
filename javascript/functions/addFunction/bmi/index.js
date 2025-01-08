@@ -3,5 +3,5 @@ function bmiCalculator(weight, height){
   return calBmi;
 }
 
-let bmi = Math.floor(bmiCalculator(159, 4));
+let bmi = Math.round(bmiCalculator(159, 4));
 alert("Your BMI is " + bmi);
