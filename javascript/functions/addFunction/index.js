@@ -11,11 +11,18 @@ function add(a, b){
 let newSum = add(23, 34);
 //alert(newSum);
 
-// calling the multiplication function
+// defining the multiplication function
 function product(c, d){
     const multiply = c * d;
     return multiply;
 }
 
 let newMultip = product(5, 10);
-alert(newMultip);
+//alert(newMultip);
+
+// defining the division function
+function divide(c, d){
+    const divide= c / d;
+    return divide;
+}
+alert(divide(20, 4))
