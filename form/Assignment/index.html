@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="images/odin-lined.png" alt="Odin Logo" /> <span>Odin</span>
+      </div>
+      <div>
+        <div>
+          <p>
+            This is not a real online service!Yoou know you need something like
+            this in your life to help you realize your deepest dreams. Signup
+            now to get started.
+          </p>
+          <p>You know you want to.</p>
+        </div>
+        <form action="#">
+          <legend>Let's Do this!</legend>
+          <div>
+            <label for="first_name">FIRST NAME</label><br />
+            <input
+              type="text"
+              name="first_name"
+              placeholder="FIRST NAME"
+              required
+            />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label><br />
+            <input
+              type="text"
+              name="last_name"
+              placeholder="LAST NAME"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">EMAIL</label><br />
+            <input type="email" required name="email" />
+          </div>
+          <div>
+            <label for="phone">PHONE NUMBER</label><br />
+            <input type="number" required name="phone" />
+          </div>
+          <div>
+            <label for="password"> CONFIRM PASSWORD</label><br />
+            <input type="password" required name="password" />
+          </div>
+          <div>
+            <label for="confirm_password"> PASSWORD</label><br />
+            <input type="password" required name="confirm_password" />
+          </div>
+          <div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? Sign in</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
