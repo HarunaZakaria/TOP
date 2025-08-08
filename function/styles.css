@@ -1,0 +1,17 @@
+:root {
+  --color-error-text: rgb(0, 204, 255);
+  --modal-border: 1px solid black;
+  --modal-font-size: calc(2rem + 5vw);
+
+  color: var(--color-error-text);
+  border: var(--modal-border);
+  font-size: var(--modal-font-size);
+}
+
+.head {
+  color: var(--color-error-text);
+  /* color: rgb(0, 45, 25); */
+  background: linear-gradient(120deg, rgb(40, 202, 140), rgb(238, 255, 0));
+  width: 300px;
+  height: auto;
+}
