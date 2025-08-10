@@ -1,11 +1,12 @@
 .container {
   display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 3fr 4fr;
   column-gap: 10px;
   row-gap: 50px;
+  text-align: center;
 }
 
-.container > div {
+/* .container > div {
   border: blue 2px solid;
-}
+} */
