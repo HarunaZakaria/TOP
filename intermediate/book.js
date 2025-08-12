@@ -10,7 +10,7 @@ function Book(title, author, pages, read) {
   this.info = function () {
     const bookInfo =
       'The ' + this.title + ' by' + this.author + this.pages + this.read;
-    console.log(bookInfo);
+    return bookInfo;
   };
 }
 
@@ -20,4 +20,4 @@ const handBook = new Book(
   '235 pages, ',
   'Read already'
 );
-handBook.info();
+//console.log(handBook.info());
